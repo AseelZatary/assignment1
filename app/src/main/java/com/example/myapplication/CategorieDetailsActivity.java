@@ -1,5 +1,9 @@
 package com.example.myapplication;
-
+/**
+ *
+ * This is done by Alaa Swilem 1191326
+ *
+ */
 import android.content.SharedPreferences;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;

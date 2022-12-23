@@ -1,5 +1,9 @@
 package com.example.myapplication.Adapters;
-
+/**
+ *
+ * This is done by Aseel Zatary 1181130
+ *
+ */
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;

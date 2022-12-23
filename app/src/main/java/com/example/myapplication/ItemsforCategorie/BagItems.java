@@ -1,5 +1,9 @@
 package com.example.myapplication.ItemsforCategorie;
-
+/**
+ *
+ * This is done by Aseel Zatary 1181130 and Alaa Swilem 1191326
+ *
+ */
 import com.example.myapplication.R;
 
 public class BagItems {

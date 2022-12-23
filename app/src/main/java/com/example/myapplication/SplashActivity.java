@@ -1,4 +1,9 @@
 package com.example.myapplication;
+/**
+ *
+ * This is done by Malak Taha 1190679
+ *
+ */
 
 import android.content.Intent;
 import android.os.Bundle;

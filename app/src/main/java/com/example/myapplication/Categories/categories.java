@@ -1,5 +1,9 @@
 package com.example.myapplication.Categories;
-
+/**
+ *
+ * This is done by Malak Taha 1190679
+ *
+ */
 public class categories {
     private String name;
 
