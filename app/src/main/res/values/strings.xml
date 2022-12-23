@@ -1,0 +1,9 @@
+<resources>
+    <string name="welcom_to">Welcom to</string>
+    <string name="heart_string">Heart String</string>
+    <string name="add_to_cart">Add to cart</string>
+    <string name="todo">TODO</string>
+    <string name="title_activity_cart_test">CartTestActivity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+</resources>
