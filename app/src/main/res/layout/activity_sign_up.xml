@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="164dp"
+        app:srcCompat="@drawable/logo" />
+
+    <EditText
+        android:id="@+id/name"
+        style="@style/login_formField"
+        android:hint="First Name"
+        />
+
+    <EditText
+        android:id="@+id/last"
+        style="@style/login_formField"
+        android:hint="Last Name"
+/>
+    <EditText
+        android:id="@+id/email"
+        style="@style/login_formField"
+        android:hint="Email Address"
+        />
+
+    <EditText
+        android:id="@+id/num"
+        style="@style/login_formField"
+        android:hint="Phone Number"
+        />
+    <EditText
+        android:id="@+id/pass"
+        style="@style/login_formField"
+        android:hint="Password"
+        android:inputType="textPassword"
+        />
+
+
+    <Button
+        android:id="@+id/angry_btn"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="5dp"
+        android:backgroundTint="@color/white"
+        android:onClick="btnSignUp"
+        android:paddingLeft="15sp"
+        android:shadowColor="#FAFAFA"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="14"
+        android:text="SignUp"
+        android:textColor="@color/color_buttonBlue"
+        android:textColorHint="#5E5E5E"
+        android:textSize="25sp"
+        app:cornerRadius="50sp" />
+
+
+
+</LinearLayout>

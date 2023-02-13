@@ -6,4 +6,8 @@
     <string name="title_activity_cart_test">CartTestActivity</string>
     <string name="tab_text_1">Tab 1</string>
     <string name="tab_text_2">Tab 2</string>
+    <string name="login_text">Login</string>
+    <string name="login_signupText">Don\'t have an account? Signup</string>
+    <string name="login_emailAddressText">Email Address:</string>
+    <string name="login_rememberLoginText">Remember Login</string>
 </resources>

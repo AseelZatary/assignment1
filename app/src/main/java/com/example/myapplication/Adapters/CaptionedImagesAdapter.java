@@ -21,7 +21,10 @@ import androidx.core.content.ContextCompat;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.myapplication.CategorieDetailsActivity;
+import com.example.myapplication.ItemsforCategorie.scarfItems;
 import com.example.myapplication.R;
+
+import java.util.List;
 
 public class CaptionedImagesAdapter
         extends RecyclerView.Adapter<CaptionedImagesAdapter.ViewHolder>{
@@ -33,6 +36,8 @@ public class CaptionedImagesAdapter
     private Button btnCart;
     private SharedPreferences sp;
 
+    private Context context;
+    private List<scarfItems> items;
 
     public CaptionedImagesAdapter(String[] captions, int[] imageIds, String[] prices,String[] description){
         this.captions = captions;
@@ -40,6 +45,10 @@ public class CaptionedImagesAdapter
         this.prices=prices;
         this.descriptions=description;
 
+    }
+    public CaptionedImagesAdapter(Context context, List<scarfItems> items){
+        this.context = context;
+        this.items = items;
     }
     @Override
     public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
